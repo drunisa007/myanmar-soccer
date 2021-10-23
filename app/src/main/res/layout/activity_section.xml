@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.upper.team10.soccer.activity.SectionActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/section_appbar"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/sectioncollapsing"
+            app:contentScrim="@color/colorPrimary"
+            app:expandedTitleTextAppearance="@drawable/md_transparent"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                app:layout_collapseMode="parallax"
+                android:layout_height="230dp">
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:flipInterval="2000"
+                    android:autoStart="true"
+                    android:layout_height="230dp">
+                    <ImageView
+                        android:id="@+id/viewflipperone"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="fitXY"
+                        />
+                    <ImageView
+                        android:id="@+id/viewflippertwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="fitXY"
+                        />
+
+                </ViewFlipper>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:id="@+id/sectiontoolbar"
+                app:layout_collapseMode="pin"
+                android:layout_height="?attr/actionBarSize">
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.2dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="7.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Stadium " />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_stadium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="Thuwanna Stadium" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="7.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Stadium Section" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_section"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="Section A" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="7.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Seat Price" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="2000 Kyats" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="7.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Match Type" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="MNL ONE" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="4.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Match Date" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_matchdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="28/11/2017" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="7.5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingLeft="10dp"
+                            android:text="Match" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" : "
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/section_match"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:paddingBottom="3dp"
+                            android:text="Yadanarpone Vs Yangon" />
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7.2dp"
+                    android:layout_weight="1"
+                    android:id="@+id/location_finder"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:foreground="@drawable/ripple">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/ic_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="8dp"
+                            android:text="Location"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/imageView5"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.47" />
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/section_cardview_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7.2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:foreground="@drawable/ripple">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/ic_if_cinema_ticket_2_753957"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginStart="13dp"
+                            android:text="Buy"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginRight="8dp"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/imageView6"
+                            android:layout_marginLeft="8dp"
+                            app:layout_constraintHorizontal_bias="0.3" />
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

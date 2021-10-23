@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/section_dialog"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Section B"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:theme="@style/TextLabel"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/section_edittext"
+            android:layout_width="match_parent"
+            android:inputType="phone|number"
+            android:maxLength="11"
+            android:layout_height="wrap_content"
+            android:hint="Phone No" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/chooseadult_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:foreground="@drawable/ripple"
+      >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="horizontal"
+        >
+
+            <TextView
+                android:id="@+id/adult_section_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="Choose Ticket Counts" />
+
+            <ImageView
+                android:id="@+id/clickadult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:src="@drawable/ic_arrow_drop_down_black_24px" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+      >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buycancel_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripplecolor"
+            android:clickable="true"
+            android:foreground="@drawable/ripplecolor"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cancel"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buycomfirm_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripplecolor"
+            android:clickable="true"
+            android:foreground="@drawable/ripplecolor"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Comfirm"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+

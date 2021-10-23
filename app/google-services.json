@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "886922800400",
+    "firebase_url": "https://soccer-982f0.firebaseio.com",
+    "project_id": "soccer-982f0",
+    "storage_bucket": "soccer-982f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886922800400:android:3f6647cd924b231d",
+        "android_client_info": {
+          "package_name": "com.upper.team10.soccer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886922800400-okjc6lic3v2ctshqsimm3tjrgcocf4io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAOfrgKtF9JmrNWwjw3FkgXNTdiEp0oWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

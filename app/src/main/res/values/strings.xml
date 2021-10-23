@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Myanmar Soccer Ticket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lots">empty</string>
+    <string name="lots1">ဳLagadere Sports Co မွ တာဝန္ရွိသူက ပဏာမသြားေရာက္စစ္ေဆးမႈမ်ားကို ယေန႔ ျပဳလုပ္ခဲ့သည္။
+</string>
+    <string name="lots2">အပိုင္းမ်ားကို အေသးစိပ္ ျပန္လည္ အေၾကာင္းၾကားေပးမည္ ျဖစ္ေၾကာင္း၊ ၎တို႔ အေနႏွင့္ AFC သို႔လည္း ယခုကြင္းတြင္ လိုအပ္ေသာ အဆင့္ျမွင့္တင္ မြမ္းမံမႈမ်ား ျပဳလုပ္ၿပီးပါက ACL Play-off ၿပိဳင္ပြြဲကို အိမ္ရွင္အျဖစ္ လက္ခံက်င္းပခြင့္ ေပးရန္ ေထာက္ခံအဆိုျပဳ ေပးမည္ ျဖစ္ေၾကာင္း ရွင္းလင္း ေျပာၾကား ခဲ့သည္။",
+</string>
+    <string name="lots3">"AFC အေနႏွင့္ ယင္းကြင္းအား ၿပိဳင္ပြဲက်င္းပခြင့္ ျပဳႏိုင္၊ မျပဳႏိုင္ကို အေသးစိပ္လာေရာက္စစ္ေဆးမႈမ်ား ထပ္မံျပဳလုပ္ဦးမည္ ျဖစ္ၿပီး ရွမ္းယူႏိုက္တက္ အသင္းအေနႏွင့္လည္း အိမ္ရွင္အျဖစ္ လက္ခံက်င္းပ လိုပါက AFC မွ သတ္မွတ္ထားေသာ ႏိုင္ငံတကာ ကြင္းစံခ်ိန္စံၫႊန္းမ်ားနီးပါး လိုအပ္သည့္ အပိုင္းမ်ားကို အခ်ိန္မွီ ျပဳျပင္ေဆာင္ရြက္ထားရမည္ ျဖစ္သည္။ACL ၿပိဳင္ပြဲ၏ အေျခခံ သတ္မွတ္ခ်က္အရ ကြင္းအတြင္းရွိ ထိုင္ခုံမ်ားကို ခုံနံပါတ္ အလိုက္ ထားရွိရမည္ျဖစ္ၿပီ၊ LED Score Board၊ Flood Light မ်ားအပါအဝင္ လိုအပ္သည့္ အခန္းမ်ား၊ Media Tribune၊ TV Control Room စသည့္အေျခခံလိုအပ္ခ်က္မ်ားကို အဆင့္မီစြာ ျပဳျပင္ေဆာင္ရြက္ထား ရမည္ ျဖစ္သည္။"
+</string>
+    <string name="facebook_app_id">2009092879332494</string>
+    <string name="fb_login_protocol_scheme">fb2009092879332494</string>
+    <string name="create">No account yet? <bold><i>Register Here</i></bold> . . .</string>
+    <string name="one">"Myanmar Soccer Ticket" App aims people
+who are interested in Football and for those who want to buy Ticket easily about Football Matches from their home .</string>
+    <string name="two"> * \u0020 Buying Ticket.</string>
+    <string name="three"> * \u0020 View and Review the Finished Matches.</string>
+    <string name="four"> * \u0020 View Football Matches\' Statistics.</string>
+    <string name="five"> * \u0020 Exactly know Players in theTwo Competition Team.</string>
+    <string name="six"> * \u0020 Up to date News about Football.</string>
+    <string name="seven"> * \u0020 To post the predictions about Football Matches.</string>
+    <string name="title">"You don't have sufficient balance. Click <b>Ok</b> to top-up your balance"</string>
+
+
+</resources>

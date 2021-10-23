@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="40dp"
+    android:src="@drawable/yadanapone"
+    android:layout_height="40dp"
+    android:id="@+id/imageview_custom"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:transitionName="away"
+    android:layout_alignParentEnd="true"
+    android:layout_marginRight="18dp"
+    android:layout_marginEnd="18dp"
+    android:layout_marginTop="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Aung Thu Thu"
+        android:textColor="#fff"
+        android:id="@+id/textview_custom_name"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textview_custom_goal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/yadanapone"
+        android:layout_height="40dp"
+        android:transitionName="home"
+        android:layout_marginRight="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_alignTop="@+id/imageview_custom"
+        android:layout_toLeftOf="@+id/imageview_custom"
+        android:layout_toStartOf="@+id/imageview_custom"
+        android:id="@+id/imageview_custom_first" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="12:13"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="9dp"
+        android:transitionName="matchgoal"
+        android:id="@+id/textview_custom_goal"
+        android:layout_alignTop="@+id/imageview_custom_first"
+        android:layout_toLeftOf="@+id/imageview_custom"
+        android:layout_toStartOf="@+id/imageview_custom" />
+
+</RelativeLayout>

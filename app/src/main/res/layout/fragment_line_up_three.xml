@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <ImageView
+                android:id="@+id/imagelineup"
+                android:layout_width="348dp"
+                android:layout_height="572dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/lineup3"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:id="@+id/home3"
+                android:layout_width="wrap_content"
+                style="@style/lineup"
+                android:layout_height="wrap_content"
+                android:text="8 Kyaw Ko Ko"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toBottomOf="@+id/home1"
+                android:layout_marginLeft="93dp"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/home1"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 Aung Thu"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="34dp"
+                app:layout_constraintHorizontal_bias="0.501" />
+
+            <TextView
+                android:id="@+id/home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Aung Ko Ko"
+                style="@style/lineup"
+                android:layout_marginTop="0dp"
+                app:layout_constraintTop_toBottomOf="@+id/home3"
+                android:layout_marginLeft="26dp"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/home7"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="169dp"
+                android:layout_marginTop="50dp"
+                android:text="66 Arun Katwal"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/home3" />
+
+            <TextView
+                android:id="@+id/home4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Aung Thu"
+                style="@style/lineup"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="79dp"
+                app:layout_constraintLeft_toRightOf="@+id/home3"
+                android:layout_marginLeft="37dp" />
+
+            <TextView
+                android:id="@+id/home5"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginTop="74dp"
+                android:text="11 Aung Kyaw Kyaw"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/home7"
+                android:layout_marginLeft="62dp" />
+
+            <TextView
+                android:id="@+id/home6"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18 Min Min"
+                android:layout_marginLeft="56dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="38dp"
+                app:layout_constraintTop_toBottomOf="@+id/home2" />
+
+            <TextView
+                android:id="@+id/home8"
+                android:layout_width="wrap_content"
+                style="@style/lineup"
+                android:layout_height="wrap_content"
+                android:text="10 Kyaw Kyaw Oo"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/home5"
+                android:layout_marginRight="20dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="1.0" />
+
+            <TextView
+                android:id="@+id/home9"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Aung Thu"
+                app:layout_constraintLeft_toRightOf="@+id/home7"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintRight_toLeftOf="@+id/home8"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="48dp"
+                app:layout_constraintBottom_toTopOf="@+id/home11"
+                app:layout_constraintHorizontal_bias="0.562" />
+
+            <TextView
+                android:id="@+id/home10"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="153dp"
+                android:text="10 Aung Aung"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="0.753"
+                android:layout_marginTop="69dp"
+                app:layout_constraintTop_toBottomOf="@+id/home8" />
+
+            <TextView
+                android:id="@+id/home11"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11 Aung Kyaw Kyaw"
+                app:layout_constraintLeft_toRightOf="@+id/home10"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="48dp"
+                app:layout_constraintTop_toBottomOf="@+id/home7"
+                app:layout_constraintHorizontal_bias="0.135" />
+
+            <TextView
+                android:id="@+id/away1"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="135dp"
+                android:layout_marginTop="524dp"
+                android:text="22 Aung Thu"
+                app:layout_constraintHorizontal_bias="0.905"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/away2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                style="@style/lineup"
+                android:layout_marginLeft="93dp"
+                android:text="99 Aung Thu"
+                app:layout_constraintBottom_toTopOf="@+id/away1"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/away3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 Kyaw Ko K0"
+                style="@style/lineup"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintBottom_toTopOf="@+id/away1"
+                android:layout_marginRight="87dp"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/away4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="77 Aung Thu"
+                style="@style/lineup"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginBottom="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/away2" />
+
+            <TextView
+                android:id="@+id/away5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="66 Aung Thu"
+                style="@style/lineup"
+                android:layout_marginRight="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/away3"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/away6"
+                style="@style/lineup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="56dp"
+                android:text="66 Kyaw Ko Ko"
+                app:layout_constraintBottom_toTopOf="@+id/away4"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/away7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="47dp"
+                android:layout_marginLeft="76dp"
+                android:text="99 Aung Thu"
+                style="@style/lineup"
+                app:layout_constraintBottom_toTopOf="@+id/away3"
+                app:layout_constraintLeft_toRightOf="@+id/away4" />
+
+            <TextView
+                android:id="@+id/away8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="88 Aung Thu"
+                style="@style/lineup"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/away7"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="47dp"
+                app:layout_constraintBottom_toTopOf="@+id/away3"
+                app:layout_constraintHorizontal_bias="0.705" />
+
+            <TextView
+                android:id="@+id/away9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="66 Kyaw Ko"
+                style="@style/lineup"
+                android:layout_marginRight="116dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginBottom="115dp"
+                app:layout_constraintBottom_toTopOf="@+id/away5" />
+
+            <TextView
+                android:id="@+id/away10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99 Aung Thu"
+                style="@style/lineup"
+                android:layout_marginLeft="151dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginBottom="33dp"
+                app:layout_constraintBottom_toTopOf="@+id/away7" />
+
+            <TextView
+                android:id="@+id/away11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="208dp"
+                android:text="88 Aung Thu"
+                style="@style/lineup"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginBottom="23dp"
+                app:layout_constraintBottom_toTopOf="@+id/away10" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="-1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Bench"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="3.5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="@color/first"
+                    android:layout_height="55dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/subhomename"
+                        android:textSize="18sp"
+                        android:textColor="#fff"
+                        android:text="NayPyiTaw Utd"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:clickable="true"
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="@color/first"
+                    app:cardCornerRadius="3dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="340dp">
+
+                        <TextView
+                            android:id="@+id/homesub1"
+                            style="@style/sub"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="MF 1 Yan Aung Lin LIn Lin Ln" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/homesub2"
+                            style="@style/sub"
+                            android:text="Gk 2 Aung Thudkfdf dkfdkf"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/homesub3"
+                            android:text="Gk 2 Aung Thu fkdfdkkfdfdk"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/homesub4"
+                            android:text="Gk 2 Aung Thu dfkdfkddk"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/homesub5"
+                            style="@style/sub"
+                            android:text="Gk 2 Aung Thukfdfkdkfdfkdkfdfkdfdkfdkfdkf"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="@color/second">
+
+                    <TextView
+                        android:id="@+id/subawayname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:text="Yandanapone"
+                        android:textSize="18sp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:clickable="true"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="3dp"
+                    app:cardBackgroundColor="@color/second"
+                    android:layout_height="340dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/awaysub1"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/awaysub2"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/awaysub3"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:id="@+id/awaysub4"
+                            style="@style/sub"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/awaysub5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/sub"
+                            />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

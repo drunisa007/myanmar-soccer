@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menumatches"
+        android:title="Matches"
+        android:icon="@drawable/ic_whistle_black"
+        />
+    <item android:id="@+id/menuvideos"
+        android:title="Videos"
+        android:icon="@drawable/ic_icontwo"
+        />
+    <item android:id="@+id/menufixtures"
+        android:title="Fixtures"
+        android:icon="@drawable/ic_fixture_black"
+        />
+    <item android:id="@+id/menunews"
+        android:title="News"
+        android:icon="@drawable/ic_if_social__rss_1466661"
+        />
+    <item android:id="@+id/menutickets"
+        android:title="Tickets"
+        android:icon="@drawable/ic_lasticonticket"
+        />
+</menu>

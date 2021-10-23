@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.upper.team10.soccer.mainfragment.PageThree">
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/pagethreetablayout"
+        android:background="#ffffff"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#241F20"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="35dp"
+            android:text="Pos"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="120dp"
+            android:text="Team"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="30dp"
+            android:text=" P"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:text=" W"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:text=" D"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:text=" L"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:text=" Pts"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pagethreeviewpager"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+    
+
+
+</LinearLayout>
+

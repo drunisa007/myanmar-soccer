@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4fc2f8</color>
+    <color name="colorPrimaryDark">#32abe4</color>
+    <color name="colorAccent">#241F20</color>
+    <color name="darktwo">#0f7c28</color>
+    <color name="darkthree">#00796b</color>
+    <color name="iconcolor">#4fc2f8</color>
+    <color name="second">#2d2c36</color>
+    <color name="first">#03a9f4</color>
+    <color name="lineone">#00bcd4</color>.
+    <color name="linetwo">#f33336</color>
+    <color name="linethree">#3f51b5</color>
+    <color name="lineones">#241f20</color>
+    <color name="linetwos">#b604c2</color>
+    <color name="linethrees">#eB9f2d</color>
+    <color name="colorFAB1">#00796b</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="colorSelect">#4440514e</color>
+    <color name="ColorName">#4fc2f8</color>
+    <color name="fixture">#eb5abfef</color>
+    <color name="white">#fff</color>
+    <color name="mycolor">#fff</color>
+</resources>

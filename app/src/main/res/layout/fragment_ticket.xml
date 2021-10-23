@@ -1,0 +1,221 @@
+<android.support.v4.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_height="match_parent"
+    tools:context="com.upper.team10.soccer.pageonefragment.Ticket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:clickable="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            app:cardCornerRadius="5dp"
+                  >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="385dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/sectionA"
+                    android:layout_alignEnd="@+id/textView3"
+                    android:layout_alignRight="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:clickable="true"
+                    android:layout_marginTop="28dp"
+                    android:layout_alignBottom="@+id/sectionC"
+                    android:layout_alignLeft="@+id/normalprice"
+                    android:layout_alignStart="@+id/normalprice" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/sectionC"
+                    android:clickable="true"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignRight="@+id/imageView2"
+                    android:layout_alignEnd="@+id/imageView2"
+                    android:layout_marginTop="40dp" />
+
+                <ImageView
+                    android:id="@+id/sectionB"
+                    android:layout_width="140dp"
+                    android:clickable="true"
+                    android:layout_height="80dp"
+                    android:layout_alignTop="@+id/textView3"
+                    android:layout_centerHorizontal="true" />
+                <ImageView
+                    android:layout_width="140dp"
+                    android:id="@+id/sectionD"
+                    android:layout_height="80dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="12dp"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:layout_toRightOf="@+id/sectionA"
+                    android:layout_toEndOf="@+id/sectionA" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:textSize="13sp"
+                    android:layout_marginStart="28dp"
+                    android:text="Section A(WEST) = 3000 Kyats"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:id="@+id/normalprice"
+                    android:layout_marginBottom="8dp"
+                    android:layout_above="@+id/vipprice"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/vipprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="11dp"
+                    android:text="Section B(NORTH) , C(EAST) , D(SOUTH) = 2000 Kyats"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/normalprice"
+                    android:layout_alignStart="@+id/normalprice" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Thuwanna Stadium"
+                    android:layout_marginTop="11dp"
+                    android:layout_alignTop="@+id/imageView2"
+                    android:layout_alignLeft="@+id/imageView2"
+                    android:layout_alignStart="@+id/imageView2" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:clickable="true"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/carviewcall"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foreground="@drawable/ripple"
+            android:layout_height="55dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:src="@drawable/ic_if_04_171508"
+                    android:layout_height="40dp"
+                    android:padding="4dp"
+                    android:id="@+id/callimage"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="22sp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/callimage"
+                    android:layout_toEndOf="@+id/callimage"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginStart="18dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:clickable="true"
+                app:cardElevation="3dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/cardviewbuy"
+                android:background="@drawable/ripple"
+                android:foreground="@drawable/ripple"
+                android:layout_height="55dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:src="@drawable/ic_if_cinema_ticket_2_753957"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageView3"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/buy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textSize="22sp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:layout_toEndOf="@+id/imageView3"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginStart="28dp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
